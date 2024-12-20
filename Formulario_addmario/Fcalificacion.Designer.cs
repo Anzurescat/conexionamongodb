@@ -134,6 +134,7 @@
             registrar.TabIndex = 10;
             registrar.Text = "registrar";
             registrar.UseVisualStyleBackColor = true;
+            registrar.Click += registrar_Click;
             // 
             // modificar
             // 
@@ -143,6 +144,7 @@
             modificar.TabIndex = 11;
             modificar.Text = "modificar";
             modificar.UseVisualStyleBackColor = true;
+            modificar.Click += modificar_Click;
             // 
             // eliminar
             // 
